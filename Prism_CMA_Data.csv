@@ -1,0 +1,29 @@
+Asset Class,Asset Group,Risk,Near Term Annual Return,Long Term Annual Return,Near Term Yield,Long Term Yield,Correlation to Equity US Core,Liquidity Score
+Alternative Investments Blended generic/Other,Alternative Investment,0.1550,0.0900,0.0850,0.0023,0.0021,0.0240,3
+Alternative Investments Capital leasing,Alternative Investment,0.1200,0.0800,0.0900,0.0000,0.0000,0.0180,2
+Alternative Investments Direct lending,Alternative Investment,0.0500,0.0700,0.0700,0.0049,0.0049,0.1250,3
+Alternative Investments Growth Focused,Alternative Investment,0.1900,0.1000,0.0800,0.0000,0.0000,0.9880,3
+Alternative Investments Income Generating,Alternative Investment,0.1200,0.0800,0.0900,0.0040,0.0045,0.5240,3
+Alternative Investments Private Equity,Alternative Investment,0.1600,0.0850,0.0950,0.0000,0.0000,0.9320,1
+Alternative Investments Reinsurance,Alternative Investment,0.1300,0.0700,0.0650,0.0046,0.0042,0.2030,3
+Alternative Investments Structured credit,Alternative Investment,0.1900,0.1000,0.0800,0.0080,0.0064,0.5300,3
+Bond Proxy,Cash,0.0300,0.0050,0.0110,0.0050,0.0110,0.1110,9
+Cash,Cash,0.0025,0.0100,0.0100,0.0001,0.0001,-0.0640,10
+Commodities,Commodities,0.1390,0.0200,0.0450,0.0000,0.0000,0.1220,6
+Core Fixed Income Inflation-Protected,Core Fixed Income,0.0440,0.0350,0.0260,0.0009,0.0007,0.1410,7
+Core Fixed Income Liquidity Management,Core Fixed Income,0.0100,0.0210,0.0240,0.0005,0.0006,-0.0110,7
+Core Fixed Income Tax Exempt Munis,Core Fixed Income,0.0370,0.0210,0.0250,0.0005,0.0006,-0.0090,7
+Core Fixed Income Taxable Corporate,Core Fixed Income,0.0520,0.0310,0.0320,0.0010,0.0010,0.2890,8
+Core Fixed Income Taxable US Government,Core Fixed Income,0.0200,0.0210,0.0240,0.0005,0.0006,-0.0760,9
+Equity International Developed,Equity,0.1510,0.0550,0.0600,0.0011,0.0012,0.7480,9
+Equity International Emerging,Equity,0.1770,0.0490,0.0690,0.0014,0.0020,0.6830,8
+Equity US Dividend Income,Equity,0.1400,0.0650,0.0680,0.0025,0.0027,0.8270,8
+Equity US Large Cap,Equity,0.1400,0.0620,0.0695,0.0012,0.0014,1.0000,9
+Equity US Mid/Small Cap,Equity,0.1800,0.0653,0.0788,0.0000,0.0000,0.9380,9
+Opportunistic Income Bank Loans,Opportunistic Income,0.0500,0.0500,0.0430,0.0022,0.0018,0.3290,5
+Opportunistic Income Diversified,Opportunistic Income,0.0700,0.0500,0.0490,0.0017,0.0017,0.6110,6
+Opportunistic Income Global High Yield Bonds,Opportunistic Income,0.0820,0.0440,0.0590,0.0017,0.0023,0.5130,6
+Opportunistic Income High Yield (Muni),Opportunistic Income,0.0660,0.0290,0.0330,0.0010,0.0011,0.3000,7
+Opportunistic Income Preferred Stock,Opportunistic Income,0.0600,0.0400,0.0330,0.0013,0.0011,0.3740,6
+Opportunistic Income US High Yield Bonds,Opportunistic Income,0.0700,0.0500,0.0490,0.0017,0.0017,0.6140,7
+Real Estate,Real Estate,0.1600,0.0640,0.0610,0.0027,0.0026,0.6770,3
