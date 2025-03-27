@@ -13,9 +13,9 @@ class SimulationRequest(BaseModel):
 async def read_root():
     return {"Running": "Successfully"}
 
-@app.post("/api/simulation")
-async def run_simulation(request: SimulationRequest):
-    return {"simulation": "Successfully"}
+# @app.post("/api/simulation")
+# async def run_simulation(request: SimulationRequest):
+#     return {"simulation": "Successfully"}
     # try:
     #     # Validate scenarios
     #     if not request.scenarios:
