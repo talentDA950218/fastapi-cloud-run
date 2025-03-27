@@ -1,7 +1,7 @@
 from typing import List
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from utility.simulation import generate_report
+# from utility.simulation import generate_report
 
 app = FastAPI()
 
@@ -10,7 +10,7 @@ class SimulationRequest(BaseModel):
     scenarios: List[dict]
 
 @app.get("/")
-def read_root():
+async def read_root():
     return {"Running": "Successfully"}
 
 # @app.post("/api/simulation")
