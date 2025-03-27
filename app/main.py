@@ -13,15 +13,15 @@ class SimulationRequest(BaseModel):
 async def read_root():
     return {"Running": "Successfully"}
 
-@app.post("/api/simulation")
-async def run_simulation(request: SimulationRequest):
-    try:
-        # Validate scenarios
-        if not request.scenarios:
-            raise HTTPException(status_code=400, detail="Scenarios must be a non-empty array")
+# @app.post("/api/simulation")
+# async def run_simulation(request: SimulationRequest):
+#     try:
+#         # Validate scenarios
+#         if not request.scenarios:
+#             raise HTTPException(status_code=400, detail="Scenarios must be a non-empty array")
             
-        report_data = generate_report(request.client_info, request.scenarios)
-        return report_data
+#         report_data = generate_report(request.client_info, request.scenarios)
+#         return report_data
 
-    except Exception as e:
-        raise HTTPException(status_code=500, detail=str(e))
+#     except Exception as e:
+#         raise HTTPException(status_code=500, detail=str(e))
