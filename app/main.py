@@ -1,7 +1,7 @@
 from typing import List
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-from utility.simulation import generate_report
+# from utility.simulation import generate_report
 
 app = FastAPI()
 
