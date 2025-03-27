@@ -2,6 +2,8 @@ from typing import List
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from utility.simulation import generate_report
+import uvicorn
+import os
 
 app = FastAPI()
 
@@ -25,3 +27,7 @@ async def run_simulation(request: SimulationRequest):
 
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+    
+if __name__ == "__main__":
+    os.environ["PORT"] = "8000"
+    uvicorn.run(app, host="0.0.0.0", port=int(os.environ["PORT"]))
