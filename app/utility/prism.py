@@ -25,14 +25,14 @@ class Prism:
         self.num_points = 100  # Number of efficient frontier points
         
         # Load CMA data
-        self.cma = pd.read_csv('Prism_CMA_Data.csv')
+        self.cma = pd.read_csv('./app/Prism_CMA_Data.csv')
         self.asset_class_name = self.cma['Asset Class'].values.tolist()
         self.asset_class_return = self.cma['Long Term Annual Return'].values.tolist()
         self.standard_deviations = self.cma['Risk'].values.tolist()
         self.num_assets = len(self.asset_class_name)
         
         # Load correlation matrix and calculate covariance
-        self.correlation_matrix = pd.read_csv('correlation_matrix.csv').set_index('Asset Class').values
+        self.correlation_matrix = pd.read_csv('./app/correlation_matrix.csv').set_index('Asset Class').values
         sigma = np.diag(self.standard_deviations)
         self.covariance_matrix = sigma @ self.correlation_matrix @ sigma
         
